@@ -30,3 +30,4 @@ int main(){
 	dfs(0);
 	
 }
+//khali t-shirt ke liye aaye hain
