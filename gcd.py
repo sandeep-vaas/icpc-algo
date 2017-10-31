@@ -1,4 +1,4 @@
-def gcd(a, b):
+def gcd(a, b):#function definition
     """Calculate the Greatest Common Divisor of a and b.
 
     Unless b==0, the result will have the same sign as b (so that when
