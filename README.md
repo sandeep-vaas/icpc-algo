@@ -1,1 +1,4 @@
 # icpc-algo
+
+GCD 
+python
