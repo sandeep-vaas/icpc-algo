@@ -30,3 +30,4 @@ int main(){
 	dfs(0);
 	
 }
+//thik hai code.
