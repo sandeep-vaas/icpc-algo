@@ -5,5 +5,5 @@ def gcd(a, b):
     b is divided by it, the result comes out positive).
     """
     while b:
-        a, b = b, a%b
+        a, b = b, a%b #assigning
     return a
