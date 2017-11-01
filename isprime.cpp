@@ -3,15 +3,16 @@
 #include <cmath> 
 
 /* Update if you are testing more
+ * Assuming 
  */
 #define TESTS 7
-#define TEST_INPUTS {-10,	\
+#define TEST_INPUTS {-128,	\
 		0,  		\
 		1,		\
 		2, 		\
-		25,		\
+		45,		\
 		101,		\
-		2147483647}
+		127}
 
 #define EXPECTED_OUTPUT {false,	\
 		false,		\
@@ -31,7 +32,7 @@ bool is_prime(long n) {
 	if(n <= 1) return false;
 	long test = sqrt(n), i = 0;
 	for(i = test; i > 1; i--){
-		if((n % test) == 0) return false;
+		if((n % i) == 0) return false;
 	}	
 	return true;
 }
@@ -54,9 +55,9 @@ void prime_tester(void) {
 }
 
 
-/* Uncomment to test the code
- * int main(void) {
- * 	prime_tester();
- * 	return 0;
- * 	}
-*/
+/* Uncomment to test the code*/
+//int main(void) {
+//	prime_tester();
+//	return 0;
+//}
+
